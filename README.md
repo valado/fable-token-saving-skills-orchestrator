@@ -2,6 +2,10 @@
 
 ![Abstract dark developer orchestration banner with a central Fable light, routing lanes, cache signals, and side-worker nodes](assets/readme/hero.png)
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/100yenadmin/fable-token-saving-skills-orchestrator/version.svg)](https://yarkr.com/arks/100yenadmin/fable-token-saving-skills-orchestrator)
+<!-- yarkr:badges:end -->
+
 [![CI](https://github.com/100yenadmin/fable-token-saving-skills-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/100yenadmin/fable-token-saving-skills-orchestrator/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![CLAUDE.md additive](https://img.shields.io/badge/CLAUDE.md-additive-7c3aed)
@@ -77,6 +81,40 @@ The installer is additive:
 - it registers Stop hooks in `settings.json`
 - it writes timestamped backups before changing existing files
 - it does nothing unless `--apply` is present
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/100yenadmin/fable-token-saving-skills-orchestrator) as the ark [100yenadmin/fable-token-saving-skills-orchestrator](https://yarkr.com/arks/100yenadmin/fable-token-saving-skills-orchestrator), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync 100yenadmin/fable-token-saving-skills-orchestrator
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:100yenadmin/fable-token-saving-skills-orchestrator/codex-dispatch
+npx yarkr-cli add skill:100yenadmin/fable-token-saving-skills-orchestrator/fable-orchestrator-router
+npx yarkr-cli add skill:100yenadmin/fable-token-saving-skills-orchestrator/public-readme-polisher
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add 100yenadmin/fable-token-saving-skills-orchestrator
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/100yenadmin/fable-token-saving-skills-orchestrator`.
+<!-- yarkr:install:end -->
 
 ## Why This Works
 
